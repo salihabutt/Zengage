@@ -1,0 +1,97 @@
+.login-page {
+    width: 100%;
+    height: 100%;
+    display: table;
+    background-color: #cbcdd0;
+
+    .child-vertical-center {
+        display: grid;
+        vertical-align: middle;
+        margin: 0px auto;
+
+}
+
+
+    .logo-area {
+        margin-top: 140px;
+    }
+
+    @media (max-width: @breakpoint-tablet) {
+        .logo-area {
+            margin-top: 20px;
+        }
+    }
+
+    .slogan {
+        font-size: 32px;
+        color: @white-color;
+        margin-top: 30px;
+        line-height: 32px;
+    }
+
+    .login-form {
+        .login-box {
+            background-color: @transparent;
+            display: block;
+            width: 380px;
+            height: auto;
+            padding: 40px 20px 40px 20px;
+            margin: 0px auto;
+            border-radius: @border-radius-5;
+
+            h4 {
+                font-size: 20px;
+                font-family: helvetica;
+            }
+
+            .login-txt {
+              width: 100%;
+border-color: transparent;
+border-bottom-color: cornflowerblue;
+/* border-radius: 5px; */
+height: 40px;
+padding-left: 10px;
+margin: 10px 0;
+font-size: 16px;
+background-color: transparent
+            }
+
+            .forgot-password {
+                a {
+                    font-size: 14px;
+                    color: #777777;
+                    margin: 15px 0px 40px 0px;
+                    display: block;
+                }
+            }
+
+            .login-btn-inactive {
+                width: 100%;
+                height: 40px;
+                background-color: #BABABA;
+                border-radius: @border-radius-5;
+                color: @white-color;
+                border: 0px;
+                font-size: 16px;
+            }
+
+            .login-btn-active {
+                width: 100%;
+                height: 40px;
+                background-color: #1B8ECA;
+                border-radius: 15;
+                color: @white-color;
+                border: 0px;
+                font-size: 16px;
+            }
+
+            .remember-me {
+                margin-top: 22px;
+                font-size: 14px;
+                color: #777777;
+            }
+
+            @media (min-width: @breakpoint-tablet) {}
+        }
+    }
+}

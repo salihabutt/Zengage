@@ -166,7 +166,7 @@ gulp.task('html', function() {
     inject.push('<script src="http://'+config.weinre.boundHost+':'+config.weinre.httpPort+'/target/target-script-min.js"></script>');
   }
   if (config.cordova) {
-    inject.push('<script src="cordova.js"></script>');
+    inject.push('<script type="text/script" src="cordova.js"></script>');
   }
   gulp.src(['src/html/**/*.html'])
   .pipe(replace('<!-- inject:js -->', inject.join('\n    ')))
@@ -198,7 +198,6 @@ gulp.task('less', function () {
     .pipe(rename({suffix: '.min'}))
     .pipe(gulp.dest(path.join(config.dest, 'css')));
 });
-
 
 /*====================================================================
 =            Compile and minify js generating source maps            =
