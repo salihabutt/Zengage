@@ -22,6 +22,7 @@ var config = {
     js: [
       './bower_components/angular/angular.js',
       './bower_components/angular-route/angular-route.js',
+      './bower_components/angular-ui-router/release/angular-ui-router.js',
       './bower_components/mobile-angular-ui/dist/js/mobile-angular-ui.js'
     ],
 
@@ -168,7 +169,7 @@ gulp.task('html', function() {
   if (config.cordova) {
     inject.push('<script type="text/script" src="cordova.js"></script>');
   }
-  gulp.src(['src/html/**/*.html'])
+  gulp.src(['src/**/*.html'])
   .pipe(replace('<!-- inject:js -->', inject.join('\n    ')))
   .pipe(gulp.dest(config.dest));
 });

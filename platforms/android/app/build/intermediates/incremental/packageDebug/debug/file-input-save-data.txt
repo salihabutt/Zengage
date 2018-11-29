@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Nov 28 12:20:40 EET 2018
+#Thu Nov 29 09:30:59 EET 2018
 124.path=www/res/icon/windows/StoreLogo.scale-100.png
 60.set=ASSET
 52.set=ASSET
@@ -11,7 +11,7 @@
 79.baseType=DIRECTORY
 28.set=ASSET
 39.baseType=DIRECTORY
-131.path=www/index.html
+131.path=www/res/screen/android/drawable-port-xxhdpi-screen.png
 98.set=ASSET
 40.path=www/res/icon/ios/icon-76.png
 82.baseType=DIRECTORY
@@ -89,7 +89,7 @@
 44.baseType=DIRECTORY
 18.set=ASSET
 96.set=ASSET
-130.path=www/res/screen/android/drawable-port-xxhdpi-screen.png
+130.path=www/cordova_plugins.js
 88.set=ASSET
 12.base=/Users/salihamehboob/MyWork/Zengage/platforms/android/app/build/intermediates/assets/debug
 2.path=www/cordova.js
@@ -141,10 +141,12 @@
 132.baseType=DIRECTORY
 76.path=www/res/icon/ios/icon-72.png
 6.set=ASSET
+135.set=ASSET
 93.baseType=DIRECTORY
 53.baseType=DIRECTORY
 127.set=ASSET
 13.baseType=DIRECTORY
+135.base=/Users/salihamehboob/MyWork/Zengage/platforms/android/app/build/intermediates/assets/debug
 0.base=/Users/salihamehboob/MyWork/Zengage/platforms/android/app/build/intermediates/assets/debug
 119.set=ASSET
 44.base=/Users/salihamehboob/MyWork/Zengage/platforms/android/app/build/intermediates/assets/debug
@@ -156,7 +158,7 @@
 122.path=www/plugins/cordova-plugin-network-information/www/Connection.js
 40.set=ASSET
 83.baseType=DIRECTORY
-129.path=www/cordova_plugins.js
+129.path=www/res/icon/windows/Square30x30Logo.scale-100.png
 32.set=ASSET
 51.base=/Users/salihamehboob/MyWork/Zengage/platforms/android/app/build/intermediates/assets/debug
 24.set=ASSET
@@ -237,7 +239,7 @@
 89.path=www/plugins/cordova-plugin-media-capture/www/MediaFileData.js
 121.path=www/res/screen/android/drawable-land-xxxhdpi-screen.png
 30.set=ASSET
-128.path=www/res/icon/windows/Square30x30Logo.scale-100.png
+128.path=www/spec/helper.js
 22.set=ASSET
 50.base=/Users/salihamehboob/MyWork/Zengage/platforms/android/app/build/intermediates/assets/debug
 14.set=ASSET
@@ -251,6 +253,7 @@
 78.baseType=DIRECTORY
 10.base=/Users/salihamehboob/MyWork/Zengage/platforms/android/app/build/intermediates/assets/debug
 38.baseType=DIRECTORY
+135.path=www/res/icon/wp8/Background.png
 0.path=www/res/icon/ios/icon-60@2x.png
 44.path=www/res/icon/ios/icon-76@2x.png
 81.baseType=DIRECTORY
@@ -320,7 +323,7 @@
 88.path=www/res/screen/ios/Default-Landscape-736h.png
 120.path=www/spec/lib/jasmine-1.2.0/jasmine.js
 20.set=ASSET
-127.path=www/spec/helper.js
+127.path=www/res/icon/ios/icon-40.png
 119.baseType=DIRECTORY
 12.set=ASSET
 90.set=ASSET
@@ -331,7 +334,7 @@
 66.set=ASSET
 58.set=ASSET
 43.baseType=DIRECTORY
-134.path=www/res/icon/wp8/Background.png
+134.path=www/plugins/cordova-plugin-file/www/FileUploadResult.js
 43.path=www/res/screen/android/drawable-port-ldpi-screen.png
 16.base=/Users/salihamehboob/MyWork/Zengage/platforms/android/app/build/intermediates/assets/debug
 90.path=www/plugins/cordova-plugin-file/www/requestFileSystem.js
@@ -349,7 +352,7 @@
 50.path=www/res/icon/ios/icon-60.png
 106.set=ASSET
 65.base=/Users/salihamehboob/MyWork/Zengage/platforms/android/app/build/intermediates/assets/debug
-count=135
+count=136
 57.path=www/res/screen/ios/Default~iphone.png
 105.baseType=DIRECTORY
 10.path=www/plugins/cordova-plugin-file/www/resolveLocalFileSystemURI.js
@@ -363,6 +366,7 @@ count=135
 81.set=ASSET
 103.path=www/res/icon/windows/Square150x150Logo.scale-240.png
 73.set=ASSET
+135.baseType=DIRECTORY
 8.baseType=DIRECTORY
 65.set=ASSET
 19.path=www/plugins/cordova-plugin-globalization/www/globalization.js
@@ -401,7 +405,7 @@ count=135
 95.base=/Users/salihamehboob/MyWork/Zengage/platforms/android/app/build/intermediates/assets/debug
 87.path=www/cordova-js-src/exec.js
 10.set=ASSET
-126.path=www/res/icon/ios/icon-40.png
+126.path=www/login.html
 80.set=ASSET
 72.set=ASSET
 55.base=/Users/salihamehboob/MyWork/Zengage/platforms/android/app/build/intermediates/assets/debug
@@ -409,7 +413,7 @@ count=135
 45.baseType=DIRECTORY
 56.set=ASSET
 48.set=ASSET
-133.path=www/plugins/cordova-plugin-file/www/FileUploadResult.js
+133.path=www/spec/lib/jasmine-1.2.0/MIT.LICENSE
 114.baseType=DIRECTORY
 42.path=www/plugins/cordova-plugin-file/www/FileSystem.js
 15.base=/Users/salihamehboob/MyWork/Zengage/platforms/android/app/build/intermediates/assets/debug
@@ -482,7 +486,7 @@ count=135
 46.set=ASSET
 116.baseType=DIRECTORY
 38.set=ASSET
-132.path=www/spec/lib/jasmine-1.2.0/MIT.LICENSE
+132.path=www/index.html
 41.path=www/res/icon/windows/Square150x150Logo.scale-100.png
 77.baseType=DIRECTORY
 14.base=/Users/salihamehboob/MyWork/Zengage/platforms/android/app/build/intermediates/assets/debug

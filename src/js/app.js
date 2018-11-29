@@ -1,10 +1,20 @@
 angular.module('ZengageApp', [
-  'ngRoute',
   'mobile-angular-ui',
-  'ZengageApp.controllers.Main',
-  'ZengageApp.controllers.Login'
-])
+  'ui.router',
+  'ZengageApp.Controllers.Login',
+  'ZengageApp.Controllers.Home'
 
-.config(function($routeProvider) {
-  $routeProvider.when('/', {templateUrl:'login.html',  reloadOnSearch: false});
-});
+])
+.config(function($stateProvider, $urlRouterProvider) {
+  $stateProvider
+  .state('home', {
+      url: '/',
+      templateUrl: 'templates/home.html',
+      abstract: true
+    })
+    .state('login', {
+          url: '/login',
+          templateUrl:'templates/login.html'
+        })
+          $urlRouterProvider.otherwise('login');
+    });
